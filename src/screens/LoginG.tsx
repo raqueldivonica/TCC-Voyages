@@ -9,6 +9,7 @@ export default function Login(){
     behavior={Platform.OS === 'ios' ? 'padding' : 'height'}
     keyboardVerticalOffset={Platform.select({ ios: 60, android: 80 })} // ajustar
     style={{ flex: 1 }}>
+      
     <ImageBackground
       source={require('../assets/images/bg-white.png')}
       style={styles.bkgd}>

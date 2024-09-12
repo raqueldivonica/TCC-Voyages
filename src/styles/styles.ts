@@ -98,5 +98,54 @@ export const styles = StyleSheet.create({
         paddingRight: 40,
     },
 
-//------------------CADASTRO------------------------
+//------------------CADASTRO CONTRATANTE------------------------
+    txtcad :{
+        justifyContent: "center",
+        flexDirection: 'row',
+        gap: 10,
+    },
+    txtCadcont:{
+        color:'#057856',
+        marginTop: '20%',
+        fontSize: 30,
+        fontWeight: '700',
+    },
+    txtcont:{
+        color:'#10C18D',
+        marginTop: '20%',
+        fontSize: 30,
+        fontWeight: '500',
+    },
+    inputesCAD:{
+        marginTop:'15%',
+        flex: 1,
+        justifyContent: 'center',
+        alignItems:'center',
+        width:'70%',
+        height:'80%',
+        marginLeft: '15%',
+    },
+    inptCC:{
+        backgroundColor:'#E1E1E1',
+        width:'100%',
+        marginBottom: 15,
+        color: '#222',
+        fontSize: 15,
+        borderRadius: 13,
+        padding: 10,
+        marginTop: '8%',
+    },
+    ConfirmBtn:{
+        margin:'30%',
+        backgroundColor: '#10C18D',
+        borderRadius: 100,
+        justifyContent:'center',
+    },
+    Confirmtxt:{
+        textAlign: 'center',
+        color: 'white',
+        fontSize: 18,
+        fontWeight: '600',
+        padding: 10,
+    },
 })
