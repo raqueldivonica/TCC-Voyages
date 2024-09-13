@@ -148,4 +148,46 @@ export const styles = StyleSheet.create({
         fontWeight: '600',
         padding: 10,
     },
+
+//------------------------CADASTRO MOTORISTA---------------------------
+
+Text_1: {
+    color: '#057856',
+    textAlign: 'center',
+    marginTop: '20%',
+    fontSize: 30,
+    fontWeight: '700',
+},
+Text_2: {
+    color: '#10C18D',
+    textAlign: 'center',
+    marginTop: '20%',
+    fontSize: 30,
+    fontWeight: '500',
+},
+CadMimputes: {
+    flex: 1,
+    alignItems:'center',
+    justifyContent: 'center',
+    width:'70%',
+    height:'80%',
+    marginLeft: '15%',
+},
+inputCadM: {
+    backgroundColor:'#E1E1E1',
+    width:'100%',
+    marginBottom: 15,
+    color: '#222',
+    fontSize: 15,
+    borderRadius: 13,
+    padding: 10,
+    marginTop: '8%',
+},
+
+BotaoEntrar: {
+
+},
+BotaoEntrarTxt: {
+
+},
 })
