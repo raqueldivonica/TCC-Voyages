@@ -183,11 +183,22 @@ inputCadM: {
     padding: 10,
     marginTop: '8%',
 },
-
-BotaoEntrar: {
-
+BtnProx: {
+    backgroundColor: '#10C18D',
+    height: '22%',
+    justifyContent: "flex-end",
+    alignItems: 'flex-end',
+    marginTop:'20%',
+    borderRadius: 100,
+    marginBottom:'8%',
 },
-BotaoEntrarTxt: {
-
+BtnProxTxt:{
+    textAlign: 'center',
+    color: 'white',
+    fontSize: 22,
+    fontWeight: '600',
+    paddingLeft: 40,
+    paddingRight: 40,
+},
 },
 })
