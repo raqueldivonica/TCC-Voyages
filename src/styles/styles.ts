@@ -151,6 +151,12 @@ export const styles = StyleSheet.create({
 
 //------------------------CADASTRO MOTORISTA---------------------------
 
+txtcad: {
+    flex: 1,
+    marginLeft: '16%',
+    marginTop: '30%',
+    marginBottom:'6%',
+},
 Text_1: {
     color: '#057856',
     textAlign: 'center',
@@ -183,11 +189,68 @@ inputCadM: {
     padding: 10,
     marginTop: '8%',
 },
-
-BotaoEntrar: {
-
+txt_cad: {
+    
 },
-BotaoEntrarTxt: {
+Texto_1: {
+    color: '#000',
+    textAlign: 'center',
+    marginTop: '20%',
+    fontSize: 21,
+    fontWeight: '500',
+},
 
+Texto_2: {
+    color: '#163D89',
+    textAlign: 'center',
+    marginTop: '20%',
+    fontSize: 21,
+    fontWeight: '500',
+},
+
+texto: {
+    color: '#163D89',
+    textAlign: 'center',
+    marginTop: '50%',
+    fontSize: 28,
+    fontWeight: '600',
+},
+txt: {
+    
+},
+Cad_imputes: {
+    flex: 1,
+    alignItems:'center',
+    justifyContent: 'center',
+    width:'70%',
+    height:'80%',
+    marginLeft: '15%',
+},
+input_CadM: {
+    backgroundColor:'#E1E1E1',
+    width:'100%',
+    marginBottom: 15,
+    color: '#222',
+    fontSize: 15,
+    borderRadius: 13,
+    padding: 10,
+    marginTop: '3%',
+},
+BtnProx: {
+    backgroundColor: '#10C18D',
+    height: '22%',
+    justifyContent: "flex-end",
+    alignItems: 'flex-end',
+    marginTop:'20%',
+    borderRadius: 100,
+    marginBottom:'8%',
+},
+BtnProxTxt:{
+    textAlign: 'center',
+    color: 'white',
+    fontSize: 22,
+    fontWeight: '600',
+    paddingLeft: 40,
+    paddingRight: 40,
 },
 })
