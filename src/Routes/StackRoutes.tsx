@@ -4,12 +4,13 @@ import Home from '../screens/Home';
 import LoginG from '../screens/LoginG'
 import CadC from "../screens/CadC";
 import CadM from "../screens/CadM";
+import Cad from "../screens/Cad"
 
 const Stack = createNativeStackNavigator()
 
 export default function StackRoutes(){
     return(
-        <Stack.Navigator screenOptions={{headerShown: false}} initialRouteName="cadmotorista">
+        <Stack.Navigator screenOptions={{headerShown: false}} initialRouteName="Cad">
             <Stack.Screen 
             name="home" 
             component={ Home }/>
@@ -21,6 +22,10 @@ export default function StackRoutes(){
             <Stack.Screen
             name="loging"
             component={ LoginG }/>
+
+            <Stack.Screen
+            name="Cad"
+            component={ Cad }/>
 
             <Stack.Screen
             name="cadmotorista"
